@@ -48,7 +48,7 @@
     <div class="container">
         <div class="nav-links">
             <a href="{{ route('simple.products.index') }}" class="{{ request()->is('simple/*') ? 'active' : '' }}">Simple Approach</a>
-            <a href="#">Repository Approach</a>
+            <a href="{{ route('repository.products.index') }}" class="{{ request()->is('repository/*') ? 'active' : '' }}">Repository Approach</a>
             <a href="#">Service Layer Approach</a>
         </div>
 
