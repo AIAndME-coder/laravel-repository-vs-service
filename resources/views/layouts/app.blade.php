@@ -49,7 +49,7 @@
         <div class="nav-links">
             <a href="{{ route('simple.products.index') }}" class="{{ request()->is('simple/*') ? 'active' : '' }}">Simple Approach</a>
             <a href="{{ route('repository.products.index') }}" class="{{ request()->is('repository/*') ? 'active' : '' }}">Repository Approach</a>
-            <a href="#">Service Layer Approach</a>
+            <a href="{{ route('service.products.index') }}" class="{{ request()->is('service/*') ? 'active' : '' }}">Service Layer Approach</a>
         </div>
 
         @yield('content')
