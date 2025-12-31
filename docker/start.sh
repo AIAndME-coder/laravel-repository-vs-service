@@ -4,7 +4,7 @@
 php-fpm -D
 
 # Start Vite dev server in the background
-cd /var/www/html && npm run build &
+cd /var/www/html && npm run dev &
 
 # Start Nginx in the foreground
 nginx -g 'daemon off;'
