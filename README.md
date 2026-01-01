@@ -305,7 +305,7 @@ The Repository Pattern is often controversial in Laravel because:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/laravel-repository-vs-service
+git clone https://github.com/AIAndME-coder/laravel-repository-vs-service
 cd laravel-repository-vs-service
 
 # Copy environment file
